@@ -171,21 +171,21 @@ def on_message(ws, message):
         if evn == 'live_message' and psn == '!on' and status == 'tidur':
             status = 'bangun'
             ws.send(bangun)
-        if evn == 'live_message' and psn[:1].lower() == 'w':
+        if evn == 'live_message' and psn[:1].lower() == 'wk':
             ws.send(ping)
-        if evn == 'live_message' and psn == 'uwu':
+        if evn == 'live_message' and psn[:1].lower() == 'uw':
             ws.send(promot)
-        if evn == 'live_message' and psn == 'Hai':
+        if evn == 'live_message' and psn[:1].lower() == 'h' and psn[-1:] == 'l':
             ws.send(jee)
-        if evn == 'live_message' and psn == 'Malam':
+        if evn == 'live_message' and psn[:1].lower() == 'm' and psn[-1:] == 'l':
             ws.send(ljee)
-        if evn == 'live_message' and psn == 'assalamualaikum':
+        if evn == 'live_message' and psn[:1].lower() == 'a' and psn[-1:] == 's':
                 ws.send(makasih)
-        if evn == 'live_message' and psn == 'Pagi':
+        if evn == 'live_message' and psn[:1].lower() == 'p' and psn[-1:] == 'g':
             ws.send(jawab)
-        if evn == 'live_message' and psn == 'Siang':
+        if evn == 'live_message' and psn[:1].lower() == 's' and psn[-1:] == 'a':
             ws.send(sokap)
-        if evn == 'live_message' and psn == 'Sore':
+        if evn == 'live_message' and psn[:1].lower() == 'o' and psn[-1:] == 'r':
             ws.send(sendiri)
         if evn == 'live_message':
             if psn == 'non keluar' and uid == '210900010':
