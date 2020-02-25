@@ -59,7 +59,7 @@ def on_message(ws, message):
             print(kambeng)
             ws.send(kambeng)
         sapa = [' .Wellcome You😊 ',' .How Are You😋 ',' .Use Your Earphone For Qouality Music🎧 ',' .We Wish You Always Heppiness☺️ ',' .Dont Forget To Love Big Sis❣ ',' .Always Smiling !! Ya😊 ',' .Youre Funny Big Sis😁 ',' .How Is Today?☺️ ',' .Take Care Of Your Health🤭',' .You Are Cute😁']
-        ljoin = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":" |USER|. ' + nama + ' + nick + random.choice(sapa) + '"}'
+        ljoin = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":" |USER|. ' + nama +  + nick + random.choice(sapa) + '"}'
         lsjoin = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"' + nick + ' Open The Spoon Radio Application Dont Fores Bro!! So 👻|GHOST|"}'
         likee = [' .Thenks For Teplove❣️',' .Thank You For Sprinkling Love☺️❣ ',' .Thank You The Fake Love😁❣ ',' .Uwu Thank You For Wanting To Love😳❣ ']
         llike = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":" |USER|.' + nick + random.choice(likee) + '"}'
