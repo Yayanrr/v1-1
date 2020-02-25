@@ -177,7 +177,7 @@ def on_message(ws, message):
             ws.send(promot)
         if evn == 'live_message' and psn[:1].lower() == 'ha':
             ws.send(jee)
-        if evn == 'live_message' and psn[:1].lower() == 'm':
+        if evn == 'live_message' and psn[:1].lower() == 'ma':
             ws.send(ljee)
         if evn == 'live_message' and psn[:1].lower() == 'as':
                 ws.send(makasih)
