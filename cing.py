@@ -183,7 +183,7 @@ def on_message(ws, message):
                 ws.send(makasih)
         if evn == 'live_message' and psn[:1].lower() == 'p':
             ws.send(jawab)
-        if evn == 'live_message' and psn == 'siang:
+        if evn == 'live_message' and psn == 'siang':
             ws.send(sokap)
         if evn == 'live_message' and psn[:1].lower() == 's':
             ws.send(sendiri)
