@@ -175,17 +175,17 @@ def on_message(ws, message):
             ws.send(ping)
         if evn == 'live_message' and psn == 'uwu':
             ws.send(promot)
-        if evn == 'live_message' and psn[:1].lower() == 'h':
+        if evn == 'live_message' and psn == 'hai':
             ws.send(jee)
         if evn == 'live_message' and psn == 'malam':
             ws.send(ljee)
         if evn == 'live_message' and psn == 'assalamualaikum':
                 ws.send(makasih)
-        if evn == 'live_message' and psn[:1].lower() == 'p':
+        if evn == 'live_message' and psn == 'pagi':
             ws.send(jawab)
         if evn == 'live_message' and psn == 'siang':
             ws.send(sokap)
-        if evn == 'live_message' and psn[:1].lower() == 's':
+        if evn == 'live_message' and psn == 'sore':
             ws.send(sendiri)
         if evn == 'live_message':
             if psn == 'non keluar' and uid == '210900010':
