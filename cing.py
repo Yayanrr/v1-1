@@ -96,7 +96,7 @@ def on_message(ws, message):
         if evn == 'live_shadowjoin':
             if status == 'bangun':
                 ws.send(lsjoin)
-        if evn == 'live_join'
+        if evn == 'live_likejoin'
             If status == 'likee':
                  ws.send(likee)
         if evn == 'live_message' and psn == '!off' and status == 'bangun':
