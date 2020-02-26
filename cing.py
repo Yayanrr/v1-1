@@ -63,7 +63,7 @@ def on_message(ws, message):
         lsjoin = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"' + nick + ' Open The Spoon Radio Application Dont Fores Bro!! So 👻|GHOST|"}'
         likee = [' .Thenks For Teplove❣️',' .Thank You For Sprinkling Love☺️❣ ',' .Thank You The Fake Love😁❣ ',' .Uwu Thank You For Wanting To Love😳❣ ']
         llike = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":" |USER|.' + nick + random.choice(likee) + '"}'
-        tidur = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"Ill Take A Break Yeah !! 😳"}'
+        tidur = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"l Take A Break Yeah !! 😳"}'
         bangun = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"Hello Everyone.How Are You? I Came To Help !! 😳"}'
         like = '{"appversion":"4.3.16","event":"live_messge","token":" ",useragent","Android","message":"I Help You With A Tap Love Yeah!!!😊"}'
         ping = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"HAHAHAHAHAHAHAHAHAHA !! 😂😂"}'
