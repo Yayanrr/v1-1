@@ -171,7 +171,7 @@ def on_message(ws, message):
         if evn == 'live_message' and psn == '!on' and status == 'tidur':
             status = 'bangun'
             ws.send(bangun)
-        if evn == 'live_message' and psn[:1].lower() == 'w':
+        if evn == 'live_message' and psn[:1].lower() == 'w' and pan[-1:] == 'k':
             ws.send(ping)
         if evn == 'live_message' and psn == 'uwu':
             ws.send(promot)
