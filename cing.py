@@ -65,7 +65,7 @@ def on_message(ws, message):
         llike = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":" |USER|.' + nick + random.choice(likee) + '"}'
         tidur = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"l Take A Break Yeah !! 😳"}'
         bangun = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"Hello Everyone.How Are You? I Came To Help !! 😳"}'
-        like = '{"appversion":"4.3.16","event":"live_messge","token":" ",useragent","Android","message":"I Help You With A Tap Love Yeah!!!😊"}'
+        likes = '{"appversion":"4.3.16","event":"live_messge","token":" ",useragent","Android","message":"I Help You With A Tap Love Yeah!!!😊"}'
         ping = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"HAHAHAHAHAHAHAHAHAHA !! 😂😂"}'
         makasih = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"' + nick + ' Waalaikumsalam Wr. Wb. !! 😇"}'
         jawab = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"Pagi Juga ' + nick + 'Jangan Lupa Sarapan Ya kak !! 😋"}'
@@ -97,8 +97,8 @@ def on_message(ws, message):
             if status == 'bangun':
                 ws.send(lsjoin)
         if evn == 'live_message' and psn == '!onlike‏‏‎' and status == 'tidur':
-            status = 'like'
-            ws.send(like)
+            status = 'likes'
+            ws.send(likes)
         if evn == 'live_message' and psn == '!off' and status == 'bangun':
             status = 'tidur'
             ws.send(tidur)
