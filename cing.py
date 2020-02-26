@@ -96,9 +96,8 @@ def on_message(ws, message):
         if evn == 'live_shadowjoin':
             if status == 'bangun':
                 ws.send(lsjoin)
-        if evn == 'live_message' and psn == '!like' and status == 'tidur':
-            If status == 'bangun':
-                 ws.send(likee)
+        if evn  ==  'live_like'  dan  status  ==  'bangun' :
+            ws . send ( llike )
         if evn == 'live_message' and psn == '!off' and status == 'bangun':
             status = 'tidur'
             ws.send(tidur)
@@ -173,7 +172,7 @@ def on_message(ws, message):
         if evn == 'live_message' and psn == '!on' and status == 'tidur':
             status = 'bangun'
             ws.send(bangun)
-        if evn == 'live_message' and psn[:1].lower() == 'w' and pan[-1:] == 'k':
+        if evn == 'live_message' and psn[:1].lower() == 'wkwkwk':
             ws.send(ping)
         if evn == 'live_message' and psn == 'uwu':
             ws.send(promot)
